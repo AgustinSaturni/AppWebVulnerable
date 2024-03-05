@@ -1,0 +1,90 @@
+.navbar {
+    background-color: white;
+    color: white;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Agregar un borde alrededor del sidebar */
+  border: 1px solid black; /* 1px de ancho y color negro */
+  }
+
+
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    /* Agregar un borde alrededor del sidebar */
+    border: 1px solid black; /* 1px de ancho y color negro */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar a {
+    
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .main-content {
+    margin-left: 220px;
+    margin-top: 100px; /* Aumenta el margen superior para evitar solapamiento con la navbar */
+  }
+  
+/* Agregar bordes redondeados a la tabla */
+.custom-table {
+  border-collapse: collapse;
+  border-radius: 10px; /* Establece un radio de borde redondeado */
+  overflow: hidden; /* Para que los bordes redondeados sean visibles */
+  width: 90%; /* Ancho completo */
+  margin-left: 50px;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #b39a9a;
+  padding: 8px;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #ff00f2b9;
+  font-weight: bold;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.custom-table tr:hover {
+  background-color: #ddd;
+}
+  
+  /* Agrega estilos al párrafo */
+.title {
+  font-size: 19px; /* Tamaño de fuente personalizado */
+  color: #333; /* Color de texto personalizado */
+  margin-top: 20px; /* Margen superior personalizado */
+  margin-left: 10px;
+  line-height: 1.5; /* Espaciado entre líneas personalizado */
+}
+
+.paragraph {
+  font-size: 17px; /* Tamaño de fuente personalizado */
+  color: #6b6a6a; /* Color de texto personalizado */
+
+  margin-left: 10px;
+  line-height: 1.5; /* Espaciado entre líneas personalizado */
+}
